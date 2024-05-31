@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <tittle></tittle>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:
+ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-
+free@6.2.1/css/fontawesome.min.css">
+
+
+</head>
+
+<body class="body">
+    <div class="container">
+    <section class="holder">
+    <section class="header-common"  id="home">
+       
+       
+        <nav class="navbar">
+            <img src="images/logo-png.png" >
+            <div class="nav_links">
+               
+                
+                <ul>
+                    
+                    <li><a href="mainpage.html">Home</a></li>
+                    <li><a href="#location_id">location</a></li>
+                    <li><a href="#message_id">Message</a></li>
+                    <li><a href="#footer_id">About Us</a></li>
+                   
+                    
+                </ul>
+                
+         </div>
+          
+           
+    
+        </nav>
+        <div class="text_box_common">
+            <h1>Contact Us</h1>
+            <p>(UG Program NBA Accredited for the period 1.7.2022 to 30.06.2025)</p>
+            
+    
+        </div>
+    
+</section>
+
+<!---------------------------->
+
+
+
+   
+
+    <section class="location" id="location_id">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.8855082253867!2d75.57679607509421!3d13.965419886449105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbbaf64bf064637%3A0x4a80b03373d9eaaf!2sComputer%20Science%20%26%20Engineering%20Department%2C%20JNNCE!5e0!3m2!1sen!2sin!4v1692093969728!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+                
+
+    <div class="row">
+        <div class="contact_cal" >
+            <div>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+                <h5>AddressJNNCE, Navule, Shimoga - 577 204, Karnataka, INDIA</h5>
+                <p>JNNCE, Navule, Shimoga - 577 204, Karnataka, INDIA</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+
+                <h5>Quick Contact</h5>
+                <p>08182 - 268800 (200 lines) with Direct Inward Dialing(DID) Facility
+                    (if you know the extension no of person to be contacted dial 08182 - 268XXX with XXX is the extension no)
+                    08182 - 225341 Principal
+                    08182 - 222450 Fa</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+
+                <h5>Email address</h5>
+                <p>principal @ jnnce.ac.in
+                    info @ jnnce.ac.in</p>
+            </div>
+
+
+        </div>
+
+        <div class="contact_cal" id="message_id">
+
+            <form action="">
+                <input type="text " placeholder="Enter your name" >
+                <input type="email " placeholder="Enter your Email adress"  >
+                <input type="text " placeholder="Enter your subject" >
+                <textarea rows="8" placeholder="Message" > </textarea>
+                <button type="button" class="contact_button red_button" onclick="showpopup()">Send Message</button>
+               
+            </form>
+
+
+        </div>
+
+       
+
+    </div>
+    
+   
+
+</section>
+<div  class="popup"  id="popup">
+    <img src="images/green_tick.png">
+    <h2>Thank you!</h2>
+    <p>Your Message has been sucessfully submitted</p>
+    <button type="button" onclick="hidepopup()">ok</button>
+</div>
+
+
+
+
+
+<!---------footer--------->
+<section class="footer" id="footer_id">
+
+    <h4>About Us</h4>
+    <p>The history of JNN College of Engineering is marked by events that have made it synonymous with quality education.<br> Established in 1980 by NES, the College is affiliated to VTU, Belagavi and <br>is recognized by the AICTE and Government of Karnataka</p>
+    <div class="icons">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+
+    </div>
+
+</section>
+    
+</section>
+
+</div>
+
+<script>
+
+let popup = document.getElementById("popup");
+function showpopup(){
+
+    popup.classList.add("showpopup");
+
+}
+
+function hidepopup(){
+
+    popup.classList.remove("showpopup");
+
+}
+
+
+</script>
+
+
+
+</body>
+</html>
